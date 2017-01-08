@@ -52,7 +52,7 @@ Download the latest firmware from [http://micropython.org/download/#esp8266](htt
 
 Using the esptool.py type `esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 esp8266-2016-05-03-v1.8.bin`
 
-### Installing the MU editor
+## Installing the MU editor
 Thanks for the great work of [Nicholas Tollervey](https://twitter.com/ntoll) who created the original MU editor for the [BBC micro:bit](https://www.microbit.co.uk) there is now a forked branch specifcally developed for the esp8266.
 
 **To install the editor:**
