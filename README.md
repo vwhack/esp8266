@@ -63,7 +63,7 @@ Thanks for the great work of [Nicholas Tollervey](https://twitter.com/ntoll) who
 
 To run the editor type `python3 run.py`
 
-## Linux users, MU editor desktop shortcut
+### Linux users, MU editor desktop shortcut
 If like me you don't want to go into the console each time you want to start the MU editor you can create a bash script and link it on the desktop. 
 
 To do this:
