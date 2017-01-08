@@ -56,7 +56,7 @@ Using the esptool.py type `esptool.py --port /dev/ttyUSB0 --baud 460800 write_fl
 Thanks for the great work of [Nicholas Tollervey](https://twitter.com/ntoll) who created the original MU editor for the [BBC micro:bit](https://www.microbit.co.uk) there is now a forked branch specifcally developed for the esp8266.
 
 **To install the editor:**
-* Clone the repository `clone https://github.com/eduvik/mu.git` 
+* Clone the repository `git clone https://github.com/eduvik/mu.git` 
 * Switch to the feature/multiboard branch `git checkout origin/feature/multi-board` 
 * Create a virtual environment `python3 venv -m myvenv` and activate it `source myvenv/bin/activate`
 * Install the dependant Python packages `pip install -r requirements.txt`
