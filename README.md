@@ -63,6 +63,32 @@ Thanks for the great work of [Nicholas Tollervey](https://twitter.com/ntoll) who
 
 To run the editor type `python3 run.py`
 
+## Linux users, MU editor desktop shortcut
+If like me you don't want to go into the console each time you want to start the MU editor you can create a bash script and link it on the desktop. 
+
+To do this:
+
+Create a bash script to run the MU
+```
+#!/bin/bash
+cd /home/<my home dir>/repos/mu
+source /home/<my home dir>/repos/mu/myvenv/bin/activate
+python3 run.py 
+```
+Install gnome-panel which is used to create the desktop item
+`sudo apt-get install --no-install-recommends gnome-panel`
+
+Create the desktop item
+`gnome-desktop-item-edit ~/Desktop/ --create-new`
+
+In the **Create Launcher** window
+* Select type `Application`
+* Add a name for the shortcut / app
+* Browse to the bash script
+* Add an optional comment
+
+Once created, you can drag the new icon to your taskbar and you now have a one click start of the MU editor
+
 
 
 
