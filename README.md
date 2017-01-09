@@ -61,6 +61,15 @@ Thanks for the great work of [Nicholas Tollervey](https://twitter.com/ntoll) who
 * Create a virtual environment `python3 venv -m myvenv` and activate it `source myvenv/bin/activate`
 * Install the dependant Python packages `pip install -r requirements.txt`
 
+**Update serial_options**
+In the cloned project folder open `/mu/mu/config.py` and change the `port`.
+```
+serial_options = {
+    'port': '/dev/ttyUSB0',
+    'speed': 115200
+}
+```
+
 To run the editor type `python3 run.py`
 
 ### Linux users, MU editor desktop shortcut
